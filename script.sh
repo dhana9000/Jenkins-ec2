@@ -14,6 +14,7 @@ sudo apt-get update
 sudo apt-get install jenkins -y
 #Start jenkins service.
 sudo service jenkins start
+#****Jenkins installation is done succussfully****
 #add user 'jenkins' to sudoers file.
 #To get sudo permissions to the user 'jenkins'.
 sudo usermod -aG sudo jenkins
